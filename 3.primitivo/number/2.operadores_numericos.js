@@ -44,7 +44,7 @@ result2--; //pos decremento
 (4).toString(2); //o numero 2 representa a base numerica, nesse caso é binário
 (3).toString(2);
 
-// aumentando os caracteres para melhorar a comparacao bit a bit
+// aumentando os caracteres para melhorar a comparacao bit a bit (padStart-> coloque 0 até completar 32 de tamanho)
 //a quantidade de caracters vai ser 32 e onde faltar ele completa com 0.
 (4).toString(2).padStart(32, 0); // -> '00000000000000000000000000000100'
 (3).toString(2).padStart(32, 0); // -> '00000000000000000000000000000011'
